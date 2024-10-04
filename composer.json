@@ -1,0 +1,34 @@
+{
+    "name": "mihai-stefanescu/tmdb-api",
+    "description": "Laravel Package for TMDB ( The Movie Database ) API. Provides easy access to the TMDB api.",
+    "type": "laravel-package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MihaiStefanescu\\TmdbApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stefanescu Mihai",
+            "email": "mihai@invata-programare.ro"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MihaiStefanescu\\TmdbApi\\Providers\\TmdbServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "MihaiStefanescu\\TmdbApi\\Facade"
+            }
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.3"
+    }
+}
