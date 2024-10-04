@@ -24,7 +24,26 @@
                 "MihaiStefanescu\\TmdbApi\\Providers\\TmdbServiceProvider"
             ],
             "aliases": {
-                "Debugbar": "MihaiStefanescu\\TmdbApi\\Facade"
+                "Certification": "MihaiStefanescu\\TmdbApi\\Facade\\Certification",
+                "Changes": "MihaiStefanescu\\TmdbApi\\Facade\\Changes",
+                "Collections": "MihaiStefanescu\\TmdbApi\\Facade\\Collections",
+                "Companies": "MihaiStefanescu\\TmdbApi\\Facade\\Companies",
+                "Credits": "MihaiStefanescu\\TmdbApi\\Facade\\Credits",
+                "Discover": "MihaiStefanescu\\TmdbApi\\Facade\\Discover",
+                "Find": "MihaiStefanescu\\TmdbApi\\Facade\\Find",
+                "Genres": "MihaiStefanescu\\TmdbApi\\Facade\\Genres",
+                "Jobs": "MihaiStefanescu\\TmdbApi\\Facade\\Jobs",
+                "Keyword": "MihaiStefanescu\\TmdbApi\\Facade\\Keyword",
+                "Lists": "MihaiStefanescu\\TmdbApi\\Facade\\Lists",
+                "Movie": "MihaiStefanescu\\TmdbApi\\Facade\\Movie",
+                "Network": "MihaiStefanescu\\TmdbApi\\Facade\\Network",
+                "People": "MihaiStefanescu\\TmdbApi\\Facade\\People",
+                "Review": "MihaiStefanescu\\TmdbApi\\Facade\\Review",
+                "Search": "MihaiStefanescu\\TmdbApi\\Facade\\Search",
+                "Tv": "MihaiStefanescu\\TmdbApi\\Facade\\Tv",
+                "TvEpisode": "MihaiStefanescu\\TmdbApi\\Facade\\TvEpisode",
+                "TvEpisodeGroup": "MihaiStefanescu\\TmdbApi\\Facade\\TvEpisodeGroup",
+                "TvSeason": "MihaiStefanescu\\TmdbApi\\Facade\\TvSeason"
             }
         }
     },
