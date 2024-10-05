@@ -4,8 +4,11 @@
     "type": "laravel-package",
     "license": "MIT",
     "autoload": {
+        "psr-0" : {
+            "MihaiStefanescu\\TmdbApi" : "src"
+        },
         "psr-4": {
-            "MihaiStefanescu\\TmdbApi\\": "src/"
+            "MihaiStefanescu\\TmdbApi": "src/"
         }
     },
     "authors": [
