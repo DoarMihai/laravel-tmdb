@@ -1,7 +1,7 @@
 {
     "name": "doarmihai/laravel-tmdb",
     "description": "Laravel Package for TMDB ( The Movie Database ) API. Provides easy access to the TMDB api.",
-    "type": "laravel-package",
+    "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4" : {
