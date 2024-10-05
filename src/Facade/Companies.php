@@ -1,6 +1,6 @@
 <?php
 
-namespace MihaiStefanescu\TmdbApi\Facade;
+namespace MihaiStefanescu\LaravelTmdb\Facade;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -8,6 +8,6 @@ class Companies extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \MihaiStefanescu\TmdbApi\Services\Companies::class;
+        return \MihaiStefanescu\LaravelTmdb\Services\Companies::class;
     }
 }

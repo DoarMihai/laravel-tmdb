@@ -1,6 +1,6 @@
 <?php
 
-namespace MihaiStefanescu\TmdbApi\Facade;
+namespace MihaiStefanescu\LaravelTmdb\Facade;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -8,6 +8,6 @@ class Search extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \MihaiStefanescu\TmdbApi\Services\Search::class;
+        return \MihaiStefanescu\LaravelTmdb\Services\Search::class;
     }
 }

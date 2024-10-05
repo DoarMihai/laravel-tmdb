@@ -1,6 +1,6 @@
 <?php
 
-namespace MihaiStefanescu\TmdbApi\Facade;
+namespace MihaiStefanescu\LaravelTmdb\Facade;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -8,6 +8,6 @@ class TvEpisodeGroup extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \MihaiStefanescu\TmdbApi\Services\TvEpisodeGroup::class;
+        return \MihaiStefanescu\LaravelTmdb\Services\TvEpisodeGroup::class;
     }
 }

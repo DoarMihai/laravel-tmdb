@@ -1,6 +1,6 @@
 <?php
 
-namespace MihaiStefanescu\TmdbApi\Services;
+namespace MihaiStefanescu\LaravelTmdb\Services;
 
 use Psr\Http\Message\ResponseInterface;
 

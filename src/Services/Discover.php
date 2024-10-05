@@ -1,6 +1,6 @@
 <?php
 
-namespace MihaiStefanescu\TmdbApi\Services;
+namespace MihaiStefanescu\LaravelTmdb\Services;
 
 class Discover extends AbstractApi
 {

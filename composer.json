@@ -6,9 +6,6 @@
     "autoload": {
         "psr-0" : {
             "MihaiStefanescu\\TmdbApi" : "src"
-        },
-        "psr-4": {
-            "MihaiStefanescu\\TmdbApi": "src/"
         }
     },
     "authors": [
@@ -24,29 +21,29 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MihaiStefanescu\\TmdbApi\\Providers\\TmdbServiceProvider"
+                "MihaiStefanescu\\LaravelTmdb\\Providers\\TmdbServiceProvider"
             ],
             "aliases": {
-                "Certification": "MihaiStefanescu\\TmdbApi\\Facade\\Certification",
-                "Changes": "MihaiStefanescu\\TmdbApi\\Facade\\Changes",
-                "Collections": "MihaiStefanescu\\TmdbApi\\Facade\\Collections",
-                "Companies": "MihaiStefanescu\\TmdbApi\\Facade\\Companies",
-                "Credits": "MihaiStefanescu\\TmdbApi\\Facade\\Credits",
-                "Discover": "MihaiStefanescu\\TmdbApi\\Facade\\Discover",
-                "Find": "MihaiStefanescu\\TmdbApi\\Facade\\Find",
-                "Genres": "MihaiStefanescu\\TmdbApi\\Facade\\Genres",
-                "Jobs": "MihaiStefanescu\\TmdbApi\\Facade\\Jobs",
-                "Keyword": "MihaiStefanescu\\TmdbApi\\Facade\\Keyword",
-                "Lists": "MihaiStefanescu\\TmdbApi\\Facade\\Lists",
-                "Movie": "MihaiStefanescu\\TmdbApi\\Facade\\Movie",
-                "Network": "MihaiStefanescu\\TmdbApi\\Facade\\Network",
-                "People": "MihaiStefanescu\\TmdbApi\\Facade\\People",
-                "Review": "MihaiStefanescu\\TmdbApi\\Facade\\Review",
-                "Search": "MihaiStefanescu\\TmdbApi\\Facade\\Search",
-                "Tv": "MihaiStefanescu\\TmdbApi\\Facade\\Tv",
-                "TvEpisode": "MihaiStefanescu\\TmdbApi\\Facade\\TvEpisode",
-                "TvEpisodeGroup": "MihaiStefanescu\\TmdbApi\\Facade\\TvEpisodeGroup",
-                "TvSeason": "MihaiStefanescu\\TmdbApi\\Facade\\TvSeason"
+                "Certification": "MihaiStefanescu\\LaravelTmdb\\Facade\\Certification",
+                "Changes": "MihaiStefanescu\\LaravelTmdb\\Facade\\Changes",
+                "Collections": "MihaiStefanescu\\LaravelTmdb\\Facade\\Collections",
+                "Companies": "MihaiStefanescu\\LaravelTmdb\\Facade\\Companies",
+                "Credits": "MihaiStefanescu\\LaravelTmdb\\Facade\\Credits",
+                "Discover": "MihaiStefanescu\\LaravelTmdb\\Facade\\Discover",
+                "Find": "MihaiStefanescu\\LaravelTmdb\\Facade\\Find",
+                "Genres": "MihaiStefanescu\\LaravelTmdb\\Facade\\Genres",
+                "Jobs": "MihaiStefanescu\\LaravelTmdb\\Facade\\Jobs",
+                "Keyword": "MihaiStefanescu\\LaravelTmdb\\Facade\\Keyword",
+                "Lists": "MihaiStefanescu\\LaravelTmdb\\Facade\\Lists",
+                "Movie": "MihaiStefanescu\\LaravelTmdb\\Facade\\Movie",
+                "Network": "MihaiStefanescu\\LaravelTmdb\\Facade\\Network",
+                "People": "MihaiStefanescu\\LaravelTmdb\\Facade\\People",
+                "Review": "MihaiStefanescu\\LaravelTmdb\\Facade\\Review",
+                "Search": "MihaiStefanescu\\LaravelTmdb\\Facade\\Search",
+                "Tv": "MihaiStefanescu\\LaravelTmdb\\Facade\\Tv",
+                "TvEpisode": "MihaiStefanescu\\LaravelTmdb\\Facade\\TvEpisode",
+                "TvEpisodeGroup": "MihaiStefanescu\\LaravelTmdb\\Facade\\TvEpisodeGroup",
+                "TvSeason": "MihaiStefanescu\\LaravelTmdb\\Facade\\TvSeason"
             }
         }
     },
