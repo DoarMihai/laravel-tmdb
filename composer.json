@@ -4,8 +4,8 @@
     "type": "laravel-package",
     "license": "MIT",
     "autoload": {
-        "psr-0" : {
-            "MihaiStefanescu\\TmdbApi" : "src"
+        "psr-4" : {
+            "MihaiStefanescu\\TmdbApi\\" : "src"
         }
     },
     "authors": [
@@ -50,6 +50,6 @@
     "require-dev": {
         "phpunit/phpunit": "^11.3"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
